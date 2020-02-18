@@ -1,0 +1,51 @@
+<%@ page language="java" contentType="text/html; charset=UTF-8"
+    pageEncoding="UTF-8"%>
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Insert title here</title>
+<link rel="stylesheet" type="text/css" href="<%= request.getContextPath() %>/css/index.css"/>
+<link rel="stylesheet" type="text/css" href="<%= request.getContextPath() %>/css/layout.css"/>
+<style>
+	.box_con{left:20px; right:20px; height:200px; background-color:#fcc6c9; position:absolute;}
+	.box{width: 150px; height:150px; border-radius:70%; overflow:hidden; background-color:#fff;margin-top:25px;margin-left:40%}
+	.profile{width: 100%; height:100%; object-fit:cover; display:block; margin:0px auto;}
+	.userTitle{font-size:40px; text-align:center; top:30px;}
+	.submit{line-height: 30px; text-align: center; background-color: #ffe3e4; color:#ff4e59;border: 1px solid #fcc6c9; border-radius: 5px; width: 80px; height: 35px; position: absolute;left:50%;top:20px; outline:none;}
+	.boxBody{position:absolute; top:250px;}
+	.submitBody{position:absolute; top:100px; margin:auto;}
+</style>
+</head>
+<body>
+	<%@ include file="views/layout.jsp" %>
+	<div class="container">
+    	<div class="userTitle">
+			프로필 관리
+    	</div>
+    	
+    	<div class="input-container">
+    		<div class="box_con">
+	    		<div class="box">
+	    			<img class="profile" src="<%= request.getContextPath() %>/images/logo.png">
+	    		</div>
+    		</div>
+		    <div class="boxBody">	
+				<div class="input-box">
+					<p class="input-label">이름</p><input type="text">
+	    			<p class="input-label">닉네임</p><input type="text">
+	    			<p class="input-label">비밀번호</p><input type="password">
+	    			<p class="input-label">연락처</p><input type="text">
+	    			<p class="input-label">이메일</p><input type="email">
+	    			<p class="input-label">생년월일</p><input type="text">
+	    			<p class="input-label">소개</p><input type="text">
+	    		</div>
+	    	</div>
+    	</div>
+    	
+    	<div class="submitBody">
+    		<div class="submit">수정</div>
+    	</div>
+	</div>
+</body>
+</html>

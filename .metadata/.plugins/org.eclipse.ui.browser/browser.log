@@ -1,0 +1,4 @@
+
+2월 13, 2020 11:49:45.49 NEW SESSION
+2월 13, 2020 11:49:45.49 [5072:3464:0213/114945.491:ERROR:CONSOLE(52)] "Uncaught (in promise) TypeError: Cannot read property 'oldRange' of undefined", source: devtools://devtools/bundled/bindings/ResourceMapping.js (52)
+2월 13, 2020 11:50:27.68 [5072:3464:0213/115027.681:ERROR:CONSOLE(52)] "Uncaught (in promise) TypeError: Cannot read property 'oldRange' of undefined", source: devtools://devtools/bundled/bindings/ResourceMapping.js (52)

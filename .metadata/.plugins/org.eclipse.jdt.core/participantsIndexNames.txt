@@ -1,0 +1,17 @@
+INDEX VERSION 1.131
+E:\kkoris\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\3927578813.index
+\1_kkoris\src
+F:\kkoris\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\1883847888.index
+\1_kkoris\src
+E:\kkoris\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\3570627618.index
+\1_kkoris\src
+E:\kkoris\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\3042620066.index
+\1_kkoris\src
+E:\kkoris\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\1152006681.index
+\1_kkoris\src
+E:\kkoris\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\1666575928.index
+\1_kkoris\src
+E:\kkoris\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\1883847888.index
+\1_kkoris\src
+F:\kkoris\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\3927578813.index
+\1_kkoris\src
